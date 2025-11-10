@@ -1,0 +1,72 @@
+[
+    {
+        "ApplicationID": 300,
+        "SubmissionDate": "2025-04-18",
+        "ApplicationStatus": "Under Review",
+        "ApplicantID": 204,
+        "PositionID": 2
+    },
+    {
+        "ApplicationID": 301,
+        "SubmissionDate": "2025-04-13",
+        "ApplicationStatus": "Automatically Screened Out",
+        "ApplicantID": 200,
+        "PositionID": 7
+    },
+    {
+        "ApplicationID": 302,
+        "SubmissionDate": "2025-04-25",
+        "ApplicationStatus": "Under Review",
+        "ApplicantID": 200,
+        "PositionID": 1
+    },
+    {
+        "ApplicationID": 303,
+        "SubmissionDate": "2025-03-11",
+        "ApplicationStatus": "Automatically Screened Out",
+        "ApplicantID": 205,
+        "PositionID": 2
+    },
+    {
+        "ApplicationID": 304,
+        "SubmissionDate": "2025-02-21",
+        "ApplicationStatus": "New",
+        "ApplicantID": 206,
+        "PositionID": 6
+    },
+    {
+        "ApplicationID": 305,
+        "SubmissionDate": "2025-04-24",
+        "ApplicationStatus": "New",
+        "ApplicantID": 209,
+        "PositionID": 6
+    },
+    {
+        "ApplicationID": 306,
+        "SubmissionDate": "2025-03-19",
+        "ApplicationStatus": "Under Review",
+        "ApplicantID": 205,
+        "PositionID": 4
+    },
+    {
+        "ApplicationID": 307,
+        "SubmissionDate": "2025-03-23",
+        "ApplicationStatus": "Automatically Screened Out",
+        "ApplicantID": 209,
+        "PositionID": 8
+    },
+    {
+        "ApplicationID": 308,
+        "SubmissionDate": "2025-03-02",
+        "ApplicationStatus": "Under Review",
+        "ApplicantID": 208,
+        "PositionID": 6
+    },
+    {
+        "ApplicationID": 309,
+        "SubmissionDate": "2025-02-22",
+        "ApplicationStatus": "Automatically Screened Out",
+        "ApplicantID": 204,
+        "PositionID": 9
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "ApplicantID": 200,
+        "FirstName": "Alex",
+        "LastName": "Rivera",
+        "ApplicationDate": "2025-03-19"
+    },
+    {
+        "ApplicantID": 201,
+        "FirstName": "Brooke",
+        "LastName": "Chen",
+        "ApplicationDate": "2025-02-08"
+    },
+    {
+        "ApplicantID": 202,
+        "FirstName": "Charlie",
+        "LastName": "Patel",
+        "ApplicationDate": "2025-03-22"
+    },
+    {
+        "ApplicantID": 203,
+        "FirstName": "Dana",
+        "LastName": "Singh",
+        "ApplicationDate": "2025-02-04"
+    },
+    {
+        "ApplicantID": 204,
+        "FirstName": "Evan",
+        "LastName": "Lopez",
+        "ApplicationDate": "2025-01-20"
+    },
+    {
+        "ApplicantID": 205,
+        "FirstName": "Faith",
+        "LastName": "Taylor",
+        "ApplicationDate": "2025-02-24"
+    },
+    {
+        "ApplicantID": 206,
+        "FirstName": "George",
+        "LastName": "Johnson",
+        "ApplicationDate": "2025-01-19"
+    },
+    {
+        "ApplicantID": 207,
+        "FirstName": "Hannah",
+        "LastName": "Carter",
+        "ApplicationDate": "2025-03-05"
+    },
+    {
+        "ApplicantID": 208,
+        "FirstName": "Isaac",
+        "LastName": "Nguyen",
+        "ApplicationDate": "2025-03-13"
+    },
+    {
+        "ApplicantID": 209,
+        "FirstName": "Jade",
+        "LastName": "Brown",
+        "ApplicationDate": "2025-01-18"
+    }
+]

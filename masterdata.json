@@ -1,0 +1,312 @@
+{
+    "Applicant": [
+        {
+            "ApplicantID": 200,
+            "FirstName": "Alex",
+            "LastName": "Rivera",
+            "ApplicationDate": "2025-03-19"
+        },
+        {
+            "ApplicantID": 201,
+            "FirstName": "Brooke",
+            "LastName": "Chen",
+            "ApplicationDate": "2025-02-08"
+        },
+        {
+            "ApplicantID": 202,
+            "FirstName": "Charlie",
+            "LastName": "Patel",
+            "ApplicationDate": "2025-03-22"
+        },
+        {
+            "ApplicantID": 203,
+            "FirstName": "Dana",
+            "LastName": "Singh",
+            "ApplicationDate": "2025-02-04"
+        },
+        {
+            "ApplicantID": 204,
+            "FirstName": "Evan",
+            "LastName": "Lopez",
+            "ApplicationDate": "2025-01-20"
+        },
+        {
+            "ApplicantID": 205,
+            "FirstName": "Faith",
+            "LastName": "Taylor",
+            "ApplicationDate": "2025-02-24"
+        },
+        {
+            "ApplicantID": 206,
+            "FirstName": "George",
+            "LastName": "Johnson",
+            "ApplicationDate": "2025-01-19"
+        },
+        {
+            "ApplicantID": 207,
+            "FirstName": "Hannah",
+            "LastName": "Carter",
+            "ApplicationDate": "2025-03-05"
+        },
+        {
+            "ApplicantID": 208,
+            "FirstName": "Isaac",
+            "LastName": "Nguyen",
+            "ApplicationDate": "2025-03-13"
+        },
+        {
+            "ApplicantID": 209,
+            "FirstName": "Jade",
+            "LastName": "Brown",
+            "ApplicationDate": "2025-01-18"
+        }
+    ],
+    "Application": [
+        {
+            "ApplicationID": 300,
+            "SubmissionDate": "2025-04-18",
+            "ApplicationStatus": "Under Review",
+            "ApplicantID": 204,
+            "PositionID": 2
+        },
+        {
+            "ApplicationID": 301,
+            "SubmissionDate": "2025-04-13",
+            "ApplicationStatus": "Automatically Screened Out",
+            "ApplicantID": 200,
+            "PositionID": 7
+        },
+        {
+            "ApplicationID": 302,
+            "SubmissionDate": "2025-04-25",
+            "ApplicationStatus": "Under Review",
+            "ApplicantID": 200,
+            "PositionID": 1
+        },
+        {
+            "ApplicationID": 303,
+            "SubmissionDate": "2025-03-11",
+            "ApplicationStatus": "Automatically Screened Out",
+            "ApplicantID": 205,
+            "PositionID": 2
+        },
+        {
+            "ApplicationID": 304,
+            "SubmissionDate": "2025-02-21",
+            "ApplicationStatus": "New",
+            "ApplicantID": 206,
+            "PositionID": 6
+        },
+        {
+            "ApplicationID": 305,
+            "SubmissionDate": "2025-04-24",
+            "ApplicationStatus": "New",
+            "ApplicantID": 209,
+            "PositionID": 6
+        },
+        {
+            "ApplicationID": 306,
+            "SubmissionDate": "2025-03-19",
+            "ApplicationStatus": "Under Review",
+            "ApplicantID": 205,
+            "PositionID": 4
+        },
+        {
+            "ApplicationID": 307,
+            "SubmissionDate": "2025-03-23",
+            "ApplicationStatus": "Automatically Screened Out",
+            "ApplicantID": 209,
+            "PositionID": 8
+        },
+        {
+            "ApplicationID": 308,
+            "SubmissionDate": "2025-03-02",
+            "ApplicationStatus": "Under Review",
+            "ApplicantID": 208,
+            "PositionID": 6
+        },
+        {
+            "ApplicationID": 309,
+            "SubmissionDate": "2025-02-22",
+            "ApplicationStatus": "Automatically Screened Out",
+            "ApplicantID": 204,
+            "PositionID": 9
+        }
+    ],
+    "JobRequirement": [
+        {
+            "RequirementID": 100,
+            "PositionID": 7,
+            "RequirementType": "Minimum Qualification",
+            "RequirementDescription": "Basic tool handling skills"
+        },
+        {
+            "RequirementID": 101,
+            "PositionID": 2,
+            "RequirementType": "Minimum Qualification",
+            "RequirementDescription": "Workplace safety compliance"
+        },
+        {
+            "RequirementID": 102,
+            "PositionID": 10,
+            "RequirementType": "Minimum Qualification",
+            "RequirementDescription": "Safety training certification"
+        },
+        {
+            "RequirementID": 103,
+            "PositionID": 5,
+            "RequirementType": "Special Certification",
+            "RequirementDescription": "Inventory management skills"
+        },
+        {
+            "RequirementID": 104,
+            "PositionID": 2,
+            "RequirementType": "Minimum Qualification",
+            "RequirementDescription": "Basic tool handling skills"
+        },
+        {
+            "RequirementID": 105,
+            "PositionID": 2,
+            "RequirementType": "Minimum Qualification",
+            "RequirementDescription": "At least 1 year experience"
+        },
+        {
+            "RequirementID": 106,
+            "PositionID": 9,
+            "RequirementType": "Special Certification",
+            "RequirementDescription": "Safety training certification"
+        },
+        {
+            "RequirementID": 107,
+            "PositionID": 10,
+            "RequirementType": "Minimum Qualification",
+            "RequirementDescription": "Safety training certification"
+        },
+        {
+            "RequirementID": 108,
+            "PositionID": 7,
+            "RequirementType": "Minimum Qualification",
+            "RequirementDescription": "Machine operation experience"
+        },
+        {
+            "RequirementID": 109,
+            "PositionID": 9,
+            "RequirementType": "Minimum Qualification",
+            "RequirementDescription": "Workplace safety compliance"
+        }
+    ],
+    "Position": [
+        {
+            "PositionID": 1,
+            "JobTitle": "Woodworker",
+            "JobDescription": "Responsible for woodworker tasks and daily operations."
+        },
+        {
+            "PositionID": 2,
+            "JobTitle": "CNC Operator",
+            "JobDescription": "Responsible for cnc operator tasks and daily operations."
+        },
+        {
+            "PositionID": 3,
+            "JobTitle": "Quality Inspector",
+            "JobDescription": "Responsible for quality inspector tasks and daily operations."
+        },
+        {
+            "PositionID": 4,
+            "JobTitle": "Production Manager",
+            "JobDescription": "Responsible for production manager tasks and daily operations."
+        },
+        {
+            "PositionID": 5,
+            "JobTitle": "Assembly Technician",
+            "JobDescription": "Responsible for assembly technician tasks and daily operations."
+        },
+        {
+            "PositionID": 6,
+            "JobTitle": "Safety Officer",
+            "JobDescription": "Responsible for safety officer tasks and daily operations."
+        },
+        {
+            "PositionID": 7,
+            "JobTitle": "Warehouse Supervisor",
+            "JobDescription": "Responsible for warehouse supervisor tasks and daily operations."
+        },
+        {
+            "PositionID": 8,
+            "JobTitle": "Maintenance Engineer",
+            "JobDescription": "Responsible for maintenance engineer tasks and daily operations."
+        },
+        {
+            "PositionID": 9,
+            "JobTitle": "Design Specialist",
+            "JobDescription": "Responsible for design specialist tasks and daily operations."
+        },
+        {
+            "PositionID": 10,
+            "JobTitle": "HR Coordinator",
+            "JobDescription": "Responsible for hr coordinator tasks and daily operations."
+        }
+    ],
+    "Qualification": [
+        {
+            "QualificationID": 400,
+            "ApplicantID": 207,
+            "QualificationDescription": "Quality Assurance Certificate",
+            "QualificationType": "Special Certification"
+        },
+        {
+            "QualificationID": 401,
+            "ApplicantID": 208,
+            "QualificationDescription": "OSHA Safety Certificate",
+            "QualificationType": "Minimum Qualification"
+        },
+        {
+            "QualificationID": 402,
+            "ApplicantID": 206,
+            "QualificationDescription": "Basic Blueprint Reading",
+            "QualificationType": "Minimum Qualification"
+        },
+        {
+            "QualificationID": 403,
+            "ApplicantID": 206,
+            "QualificationDescription": "Woodworking Workshop",
+            "QualificationType": "Special Certification"
+        },
+        {
+            "QualificationID": 404,
+            "ApplicantID": 206,
+            "QualificationDescription": "Forklift License",
+            "QualificationType": "Special Certification"
+        },
+        {
+            "QualificationID": 405,
+            "ApplicantID": 209,
+            "QualificationDescription": "Woodworking Workshop",
+            "QualificationType": "Special Certification"
+        },
+        {
+            "QualificationID": 406,
+            "ApplicantID": 206,
+            "QualificationDescription": "Product Design Diploma",
+            "QualificationType": "Minimum Qualification"
+        },
+        {
+            "QualificationID": 407,
+            "ApplicantID": 208,
+            "QualificationDescription": "Machining Certification",
+            "QualificationType": "Minimum Qualification"
+        },
+        {
+            "QualificationID": 408,
+            "ApplicantID": 208,
+            "QualificationDescription": "CNC Programming Course",
+            "QualificationType": "Special Certification"
+        },
+        {
+            "QualificationID": 409,
+            "ApplicantID": 205,
+            "QualificationDescription": "Product Design Diploma",
+            "QualificationType": "Minimum Qualification"
+        }
+    ]
+}

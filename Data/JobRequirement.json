@@ -1,0 +1,62 @@
+[
+    {
+        "RequirementID": 100,
+        "PositionID": 7,
+        "RequirementType": "Minimum Qualification",
+        "RequirementDescription": "Basic tool handling skills"
+    },
+    {
+        "RequirementID": 101,
+        "PositionID": 2,
+        "RequirementType": "Minimum Qualification",
+        "RequirementDescription": "Workplace safety compliance"
+    },
+    {
+        "RequirementID": 102,
+        "PositionID": 10,
+        "RequirementType": "Minimum Qualification",
+        "RequirementDescription": "Safety training certification"
+    },
+    {
+        "RequirementID": 103,
+        "PositionID": 5,
+        "RequirementType": "Special Certification",
+        "RequirementDescription": "Inventory management skills"
+    },
+    {
+        "RequirementID": 104,
+        "PositionID": 2,
+        "RequirementType": "Minimum Qualification",
+        "RequirementDescription": "Basic tool handling skills"
+    },
+    {
+        "RequirementID": 105,
+        "PositionID": 2,
+        "RequirementType": "Minimum Qualification",
+        "RequirementDescription": "At least 1 year experience"
+    },
+    {
+        "RequirementID": 106,
+        "PositionID": 9,
+        "RequirementType": "Special Certification",
+        "RequirementDescription": "Safety training certification"
+    },
+    {
+        "RequirementID": 107,
+        "PositionID": 10,
+        "RequirementType": "Minimum Qualification",
+        "RequirementDescription": "Safety training certification"
+    },
+    {
+        "RequirementID": 108,
+        "PositionID": 7,
+        "RequirementType": "Minimum Qualification",
+        "RequirementDescription": "Machine operation experience"
+    },
+    {
+        "RequirementID": 109,
+        "PositionID": 9,
+        "RequirementType": "Minimum Qualification",
+        "RequirementDescription": "Workplace safety compliance"
+    }
+]

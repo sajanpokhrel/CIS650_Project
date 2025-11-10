@@ -1,0 +1,52 @@
+[
+    {
+        "PositionID": 1,
+        "JobTitle": "Woodworker",
+        "JobDescription": "Responsible for woodworker tasks and daily operations."
+    },
+    {
+        "PositionID": 2,
+        "JobTitle": "CNC Operator",
+        "JobDescription": "Responsible for cnc operator tasks and daily operations."
+    },
+    {
+        "PositionID": 3,
+        "JobTitle": "Quality Inspector",
+        "JobDescription": "Responsible for quality inspector tasks and daily operations."
+    },
+    {
+        "PositionID": 4,
+        "JobTitle": "Production Manager",
+        "JobDescription": "Responsible for production manager tasks and daily operations."
+    },
+    {
+        "PositionID": 5,
+        "JobTitle": "Assembly Technician",
+        "JobDescription": "Responsible for assembly technician tasks and daily operations."
+    },
+    {
+        "PositionID": 6,
+        "JobTitle": "Safety Officer",
+        "JobDescription": "Responsible for safety officer tasks and daily operations."
+    },
+    {
+        "PositionID": 7,
+        "JobTitle": "Warehouse Supervisor",
+        "JobDescription": "Responsible for warehouse supervisor tasks and daily operations."
+    },
+    {
+        "PositionID": 8,
+        "JobTitle": "Maintenance Engineer",
+        "JobDescription": "Responsible for maintenance engineer tasks and daily operations."
+    },
+    {
+        "PositionID": 9,
+        "JobTitle": "Design Specialist",
+        "JobDescription": "Responsible for design specialist tasks and daily operations."
+    },
+    {
+        "PositionID": 10,
+        "JobTitle": "HR Coordinator",
+        "JobDescription": "Responsible for hr coordinator tasks and daily operations."
+    }
+]

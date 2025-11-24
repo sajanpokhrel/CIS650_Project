@@ -25,10 +25,18 @@ def read_data():
     Qualification = pd.read_json(os.path.join(subfolder_path, "Qualification.json"))
     Qualification.set_index('QualificationID', inplace= True)
 
-    return(Applicant, Application, JobRequirement, Position, Qualification)
+    ApplicantQualification = pd.read_json(os.path.join(subfolder_path, "ApplicantQualification.json"))
+    ApplicantQualification.set_index(['ApplicantID','QualificationID'], inplace= True)
+    
+    RequirementQualification = pd.read_json(os.path.join(subfolder_path, "RequirementQualification.json"))
+    RequirementQualification.set_index(['RequirementID','QualificationID'], inplace= True)
+
+
+
+    return(Applicant, Application, JobRequirement, Position, Qualification, ApplicantQualification, RequirementQualification)
 
 def show_data():
-    Applicant, Application, JobRequirement,Position, Qualification = read_data()
+    Applicant, Application, JobRequirement, Position, Qualification, ApplicantQualification, RequirementQualification = read_data()
     
     print("\n========== Applicant Table==========")
     print(Applicant.head())
@@ -60,6 +68,19 @@ def show_data():
     print("\nData Types:")
     print(Qualification.dtypes)
     print("_" * 80)
+    
+    print("\n========== ApplicantQualification Table==========")
+    print(ApplicantQualification.head())
+    print("\nData Types:")
+    print(ApplicantQualification.dtypes)
+    print("_" * 80)
+
+    print("\n========== RequirementQualification Table==========")
+    print(RequirementQualification.head())
+    print("\nData Types:")
+    print(RequirementQualification.dtypes)
+    print("_" * 80)
+
 
     print("\n All tables displayed successfully!!")
 

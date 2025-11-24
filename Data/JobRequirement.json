@@ -1,62 +1,32 @@
 [
-    {
-        "RequirementID": 100,
-        "PositionID": 7,
-        "RequirementType": "Minimum Qualification",
-        "RequirementDescription": "Basic tool handling skills"
-    },
-    {
-        "RequirementID": 101,
-        "PositionID": 2,
-        "RequirementType": "Minimum Qualification",
-        "RequirementDescription": "Workplace safety compliance"
-    },
-    {
-        "RequirementID": 102,
-        "PositionID": 10,
-        "RequirementType": "Minimum Qualification",
-        "RequirementDescription": "Safety training certification"
-    },
-    {
-        "RequirementID": 103,
-        "PositionID": 5,
-        "RequirementType": "Special Certification",
-        "RequirementDescription": "Inventory management skills"
-    },
-    {
-        "RequirementID": 104,
-        "PositionID": 2,
-        "RequirementType": "Minimum Qualification",
-        "RequirementDescription": "Basic tool handling skills"
-    },
-    {
-        "RequirementID": 105,
-        "PositionID": 2,
-        "RequirementType": "Minimum Qualification",
-        "RequirementDescription": "At least 1 year experience"
-    },
-    {
-        "RequirementID": 106,
-        "PositionID": 9,
-        "RequirementType": "Special Certification",
-        "RequirementDescription": "Safety training certification"
-    },
-    {
-        "RequirementID": 107,
-        "PositionID": 10,
-        "RequirementType": "Minimum Qualification",
-        "RequirementDescription": "Safety training certification"
-    },
-    {
-        "RequirementID": 108,
-        "PositionID": 7,
-        "RequirementType": "Minimum Qualification",
-        "RequirementDescription": "Machine operation experience"
-    },
-    {
-        "RequirementID": 109,
-        "PositionID": 9,
-        "RequirementType": "Minimum Qualification",
-        "RequirementDescription": "Workplace safety compliance"
-    }
+  {
+    "RequirementID": "R001",
+    "PositionID": "P001",
+    "RequirementType": "Minimum Qualification",
+    "Requirementdescription": "Bachelor’s degree in Human Resources, Business, or a related field."
+  },
+  {
+    "RequirementID": "R002",
+    "PositionID": "P001",
+    "RequirementType": "Minimum Qualification",
+    "Requirementdescription": "At least 1 year of experience in HR, recruitment, or administrative support."
+  },
+  {
+    "RequirementID": "R003",
+    "PositionID": "P002",
+    "RequirementType": "Special Certification",
+    "Requirementdescription": "Valid forklift safety certification for operating warehouse equipment."
+  },
+  {
+    "RequirementID": "R004",
+    "PositionID": "P002",
+    "RequirementType": "Minimum Qualification",
+    "Requirementdescription": "High school diploma or equivalent for entry-level warehouse work."
+  },
+  {
+    "RequirementID": "R005",
+    "PositionID": "P003",
+    "RequirementType": "Special Certification",
+    "Requirementdescription": "OSHA 10-hour safety certification or equivalent safety training."
+  }
 ]

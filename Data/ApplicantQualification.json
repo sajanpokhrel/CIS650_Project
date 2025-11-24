@@ -1,0 +1,82 @@
+[
+  {
+    "ApplicantID": "A001",
+    "QualificationID": "Q003"
+  },
+  {
+    "ApplicantID": "A001",
+    "QualificationID": "Q009"
+  },
+  {
+    "ApplicantID": "A002",
+    "QualificationID": "Q002"
+  },
+  {
+    "ApplicantID": "A002",
+    "QualificationID": "Q009"
+  },
+  {
+    "ApplicantID": "A003",
+    "QualificationID": "Q004"
+  },
+  {
+    "ApplicantID": "A003",
+    "QualificationID": "Q010"
+  },
+  {
+    "ApplicantID": "A004",
+    "QualificationID": "Q001"
+  },
+  {
+    "ApplicantID": "A004",
+    "QualificationID": "Q008"
+  },
+  {
+    "ApplicantID": "A005",
+    "QualificationID": "Q001"
+  },
+  {
+    "ApplicantID": "A005",
+    "QualificationID": "Q005"
+  },
+  {
+    "ApplicantID": "A006",
+    "QualificationID": "Q002"
+  },
+  {
+    "ApplicantID": "A006",
+    "QualificationID": "Q008"
+  },
+  {
+    "ApplicantID": "A007",
+    "QualificationID": "Q003"
+  },
+  {
+    "ApplicantID": "A007",
+    "QualificationID": "Q010"
+  },
+  {
+    "ApplicantID": "A008",
+    "QualificationID": "Q001"
+  },
+  {
+    "ApplicantID": "A008",
+    "QualificationID": "Q007"
+  },
+  {
+    "ApplicantID": "A009",
+    "QualificationID": "Q004"
+  },
+  {
+    "ApplicantID": "A009",
+    "QualificationID": "Q006"
+  },
+  {
+    "ApplicantID": "A010",
+    "QualificationID": "Q003"
+  },
+  {
+    "ApplicantID": "A010",
+    "QualificationID": "Q006"
+  }
+]

@@ -1,62 +1,52 @@
 [
-    {
-        "QualificationID": 400,
-        "ApplicantID": 207,
-        "QualificationDescription": "Quality Assurance Certificate",
-        "QualificationType": "Special Certification"
-    },
-    {
-        "QualificationID": 401,
-        "ApplicantID": 208,
-        "QualificationDescription": "OSHA Safety Certificate",
-        "QualificationType": "Minimum Qualification"
-    },
-    {
-        "QualificationID": 402,
-        "ApplicantID": 206,
-        "QualificationDescription": "Basic Blueprint Reading",
-        "QualificationType": "Minimum Qualification"
-    },
-    {
-        "QualificationID": 403,
-        "ApplicantID": 206,
-        "QualificationDescription": "Woodworking Workshop",
-        "QualificationType": "Special Certification"
-    },
-    {
-        "QualificationID": 404,
-        "ApplicantID": 206,
-        "QualificationDescription": "Forklift License",
-        "QualificationType": "Special Certification"
-    },
-    {
-        "QualificationID": 405,
-        "ApplicantID": 209,
-        "QualificationDescription": "Woodworking Workshop",
-        "QualificationType": "Special Certification"
-    },
-    {
-        "QualificationID": 406,
-        "ApplicantID": 206,
-        "QualificationDescription": "Product Design Diploma",
-        "QualificationType": "Minimum Qualification"
-    },
-    {
-        "QualificationID": 407,
-        "ApplicantID": 208,
-        "QualificationDescription": "Machining Certification",
-        "QualificationType": "Minimum Qualification"
-    },
-    {
-        "QualificationID": 408,
-        "ApplicantID": 208,
-        "QualificationDescription": "CNC Programming Course",
-        "QualificationType": "Special Certification"
-    },
-    {
-        "QualificationID": 409,
-        "ApplicantID": 205,
-        "QualificationDescription": "Product Design Diploma",
-        "QualificationType": "Minimum Qualification"
-    }
+  {
+    "QualificationID": "Q001",
+    "QualificationDescription": "High School Diploma",
+    "QualificationType": "Minimum Qualification"
+  },
+  {
+    "QualificationID": "Q002",
+    "QualificationDescription": "Associate Degree in Business",
+    "QualificationType": "Minimum Qualification"
+  },
+  {
+    "QualificationID": "Q003",
+    "QualificationDescription": "Bachelor’s Degree in Human Resources",
+    "QualificationType": "Minimum Qualification"
+  },
+  {
+    "QualificationID": "Q004",
+    "QualificationDescription": "Bachelor’s Degree in Industrial Engineering",
+    "QualificationType": "Minimum Qualification"
+  },
+  {
+    "QualificationID": "Q005",
+    "QualificationDescription": "Forklift Safety Certification",
+    "QualificationType": "Special Certification"
+  },
+  {
+    "QualificationID": "Q006",
+    "QualificationDescription": "OSHA 10-hour Safety Certification",
+    "QualificationType": "Special Certification"
+  },
+  {
+    "QualificationID": "Q007",
+    "QualificationDescription": "CPR and First Aid Certification",
+    "QualificationType": "Special Certification"
+  },
+  {
+    "QualificationID": "Q008",
+    "QualificationDescription": "2+ Years Warehouse Experience",
+    "QualificationType": "Minimum Qualification"
+  },
+  {
+    "QualificationID": "Q009",
+    "QualificationDescription": "1+ Year HR or Recruitment Experience",
+    "QualificationType": "Minimum Qualification"
+  },
+  {
+    "QualificationID": "Q010",
+    "QualificationDescription": "3+ Years Supervisory or Team Lead Experience",
+    "QualificationType": "Minimum Qualification"
+  }
 ]

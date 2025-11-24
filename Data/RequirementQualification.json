@@ -1,0 +1,47 @@
+[
+  {
+    "RequirementID": "R001",
+    "QualificationID": "Q003",
+    "IsMinimumRequired": true
+  },
+  {
+    "RequirementID": "R001",
+    "QualificationID": "Q002",
+    "IsMinimumRequired": false
+  },
+  {
+    "RequirementID": "R002",
+    "QualificationID": "Q009",
+    "IsMinimumRequired": true
+  },
+  {
+    "RequirementID": "R002",
+    "QualificationID": "Q010",
+    "IsMinimumRequired": false
+  },
+  {
+    "RequirementID": "R003",
+    "QualificationID": "Q005",
+    "IsMinimumRequired": true
+  },
+  {
+    "RequirementID": "R004",
+    "QualificationID": "Q001",
+    "IsMinimumRequired": true
+  },
+  {
+    "RequirementID": "R004",
+    "QualificationID": "Q008",
+    "IsMinimumRequired": false
+  },
+  {
+    "RequirementID": "R005",
+    "QualificationID": "Q006",
+    "IsMinimumRequired": true
+  },
+  {
+    "RequirementID": "R005",
+    "QualificationID": "Q007",
+    "IsMinimumRequired": false
+  }
+]

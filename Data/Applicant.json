@@ -1,62 +1,62 @@
 [
-    {
-        "ApplicantID": 200,
-        "FirstName": "Alex",
-        "LastName": "Rivera",
-        "ApplicationDate": "2025-03-19"
-    },
-    {
-        "ApplicantID": 201,
-        "FirstName": "Brooke",
-        "LastName": "Chen",
-        "ApplicationDate": "2025-02-08"
-    },
-    {
-        "ApplicantID": 202,
-        "FirstName": "Charlie",
-        "LastName": "Patel",
-        "ApplicationDate": "2025-03-22"
-    },
-    {
-        "ApplicantID": 203,
-        "FirstName": "Dana",
-        "LastName": "Singh",
-        "ApplicationDate": "2025-02-04"
-    },
-    {
-        "ApplicantID": 204,
-        "FirstName": "Evan",
-        "LastName": "Lopez",
-        "ApplicationDate": "2025-01-20"
-    },
-    {
-        "ApplicantID": 205,
-        "FirstName": "Faith",
-        "LastName": "Taylor",
-        "ApplicationDate": "2025-02-24"
-    },
-    {
-        "ApplicantID": 206,
-        "FirstName": "George",
-        "LastName": "Johnson",
-        "ApplicationDate": "2025-01-19"
-    },
-    {
-        "ApplicantID": 207,
-        "FirstName": "Hannah",
-        "LastName": "Carter",
-        "ApplicationDate": "2025-03-05"
-    },
-    {
-        "ApplicantID": 208,
-        "FirstName": "Isaac",
-        "LastName": "Nguyen",
-        "ApplicationDate": "2025-03-13"
-    },
-    {
-        "ApplicantID": 209,
-        "FirstName": "Jade",
-        "LastName": "Brown",
-        "ApplicationDate": "2025-01-18"
-    }
+  {
+    "ApplicantID": "A001",
+    "FirstName": "John",
+    "LastName": "Smith",
+    "Email": "john.smith87@westmail.net"
+  },
+  {
+    "ApplicantID": "A002",
+    "FirstName": "Emily",
+    "LastName": "Johnson",
+    "Email": "emily.johnson24@brightmail.co"
+  },
+  {
+    "ApplicantID": "A003",
+    "FirstName": "Michael",
+    "LastName": "Brown",
+    "Email": "michael.brown92@globemail.org"
+  },
+  {
+    "ApplicantID": "A004",
+    "FirstName": "Olivia",
+    "LastName": "Davis",
+    "Email": "olivia.davis31@streamlinehub.net"
+  },
+  {
+    "ApplicantID": "A005",
+    "FirstName": "Daniel",
+    "LastName": "Miller",
+    "Email": "dan.miller76@nexisconnect.io"
+  },
+  {
+    "ApplicantID": "A006",
+    "FirstName": "Sophia",
+    "LastName": "Wilson",
+    "Email": "sophia.wilson55@coremail.org"
+  },
+  {
+    "ApplicantID": "A007",
+    "FirstName": "James",
+    "LastName": "Anderson",
+    "Email": "james.anderson09@flowmail.net"
+  },
+  {
+    "ApplicantID": "A008",
+    "FirstName": "Ava",
+    "LastName": "Thompson",
+    "Email": "ava.thompson63@truestream.co"
+  },
+  {
+    "ApplicantID": "A009",
+    "FirstName": "William",
+    "LastName": "Martinez",
+    "Email": "will.martinez77@cloudpost.info"
+  },
+  {
+    "ApplicantID": "A010",
+    "FirstName": "Grace",
+    "LastName": "Taylor",
+    "Email": "grace.taylor28@fastmailhub.org"
+  }
 ]

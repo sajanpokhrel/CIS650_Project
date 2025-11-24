@@ -1,6 +1,6 @@
 import pprint
 
-# ========== SIMPLE VIEW FUNCTIONS ==========
+
 
 def view_applicants(Applicant):
     """Show all applicants."""
@@ -51,12 +51,11 @@ def view_requirement_qualifications(RequirementQualification):
     input("\nPress Enter to continue...")
 
 
-# ========== HELPER CHOICE FUNCTIONS ==========
 
 def get_position_id(Position):
     """Let the user choose a PositionID (e.g., P001)."""
     print("\nAvailable positions (ID and JobTitle):")
-    # Show only ID and title for easier reading
+    
     pprint.pprint(Position[["JobTitle"]])
 
     position_ids = Position.index.tolist()
@@ -88,7 +87,6 @@ def get_applicant_id(Applicant):
             return a_id
 
 
-# ========== VIEW REQUIREMENTS FOR ONE POSITION ==========
 
 def view_requirements_for_position(JobRequirement,
                                    RequirementQualification,
@@ -100,22 +98,22 @@ def view_requirements_for_position(JobRequirement,
     """
     print(f"\n=== REQUIREMENTS FOR POSITION {position_id} ===")
 
-    # Filter the job requirements for this position
+    
     req_for_pos = JobRequirement[JobRequirement["PositionID"] == position_id]
 
     if req_for_pos.empty:
         print("No requirements found for this position.")
         return
 
-    # Turn RequirementQualification multi-index into normal columns
-    rq = RequirementQualification.reset_index()  # RequirementID, QualificationID, IsMinimumRequired
+   
+    rq = RequirementQualification.reset_index()  
 
     for req_id, row in req_for_pos.iterrows():
         print(f"\nRequirementID: {req_id}")
         print(f"  RequirementType       : {row['RequirementType']}")
         print(f"  Requirementdescription: {row['Requirementdescription']}")
 
-        # All qualification rows linked to this requirement
+        
         rq_rows = rq[rq["RequirementID"] == req_id]
 
         if rq_rows.empty:
@@ -131,7 +129,7 @@ def view_requirements_for_position(JobRequirement,
                 print(f"    - {qid}: {q_desc} [{q_type}]{min_tag}")
 
 
-# ========== VIEW APPLICANTS & THEIR QUALIFICATIONS ==========
+
 
 def view_applicants_and_qualifications(Applicant,
                                        ApplicantQualification,
@@ -141,8 +139,8 @@ def view_applicants_and_qualifications(Applicant,
     """
     print("\n=== APPLICANTS AND THEIR QUALIFICATIONS ===")
 
-    # Turn ApplicantQualification multi-index into normal columns
-    aq = ApplicantQualification.reset_index()  # ApplicantID, QualificationID
+    
+    aq = ApplicantQualification.reset_index() 
 
     for applicant_id, a_row in Applicant.iterrows():
         print(f"\nApplicantID: {applicant_id}")
@@ -164,7 +162,7 @@ def view_applicants_and_qualifications(Applicant,
     input("\nPress Enter to continue...")
 
 
-# ========== MAIN USER STORY: SCREEN APPLICANTS ==========
+
 
 def screen_applicants_for_position(position_id,
                                    Applicant,
@@ -220,7 +218,7 @@ def screen_applicants_for_position(position_id,
     applicant_ids = apps_for_pos["ApplicantID"].unique()
 
     # 4. For each applicant, check if they have ALL min qualifications
-    aq = ApplicantQualification.reset_index()  # ApplicantID, QualificationID
+    aq = ApplicantQualification.reset_index()  
     qualified_applicants = []
 
     for a_id in applicant_ids:
@@ -230,7 +228,7 @@ def screen_applicants_for_position(position_id,
         if min_qual_ids.issubset(applicant_qids):
             qualified_applicants.append(a_id)
 
-    # 5. Print result
+    
     print("\n=== QUALIFIED APPLICANTS ===")
     if not qualified_applicants:
         print("No applicants meet all minimum qualifications.")

@@ -1,22 +1,20 @@
-from read_data import read_data
+from read_data import read_data, save_application
 from business_logic import (
     view_applicants,
-    view_positions,
     view_applications,
-    view_job_requirements,
+    view_positions,
     view_qualifications,
     view_applicant_qualifications,
+    view_job_requirements,
     view_requirement_qualifications,
-    get_position_id,
-    view_requirements_for_position,
-    view_applicants_and_qualifications,
-    screen_applicants_for_position,
+    view_applications_by_position,
+    manual_screening,
 )
 
 
 def main():
-    print("Welcome to the We Build Stuff HR Screening System")
-    print("User Story 5: Automatically screen out unqualified applicants\n")
+    print("Welcome to the We Build Stuff HR System")
+    print("User Story: Manual screening with manager Yes/No decision\n")
 
     (
         Applicant,
@@ -30,81 +28,65 @@ def main():
 
     while True:
         print("""
-================ HRS MENU ================
+==================== HRS MENU ====================
 1. View Applicants
-2. View Positions
-3. View Applications
-4. View Job Requirements
-5. View Qualifications
-6. View ApplicantQualification table
-7. View RequirementQualification table
-8. View Requirements for a Position
-9. View Applicants & Their Qualifications
-10. Screen Applicants for a Position
+2. View Applications
+3. View Positions
+4. View Qualifications
+5. View ApplicantQualification
+6. View Job Requirements
+7. View RequirementQualification
+8. View Applications by Position
+9. Manual Screening for a Position
 0. Exit
-==========================================
+=================================================
 """)
 
-        choice = input("Enter your choice (0–10): ").strip()
+        choice = input("Enter your choice (0-9): ").strip()
 
         if choice == "1":
             view_applicants(Applicant)
 
         elif choice == "2":
-            view_positions(Position)
-
-        elif choice == "3":
             view_applications(Application)
 
-        elif choice == "4":
-            view_job_requirements(JobRequirement)
+        elif choice == "3":
+            view_positions(Position)
 
-        elif choice == "5":
+        elif choice == "4":
             view_qualifications(Qualification)
 
-        elif choice == "6":
+        elif choice == "5":
             view_applicant_qualifications(ApplicantQualification)
+
+        elif choice == "6":
+            view_job_requirements(JobRequirement)
 
         elif choice == "7":
             view_requirement_qualifications(RequirementQualification)
 
         elif choice == "8":
-            # Pick a position, then show its requirements + linked qualifications
-            pos_id = get_position_id(Position)
-            view_requirements_for_position(
-                JobRequirement,
-                RequirementQualification,
-                Qualification,
-                pos_id,
-            )
+            view_applications_by_position(Application, Position, Applicant)
 
         elif choice == "9":
-            # Show each applicant + their qualifications
-            view_applicants_and_qualifications(
-                Applicant,
-                ApplicantQualification,
-                Qualification,
-            )
-
-        elif choice == "10":
-            # Main user story: automatic screening by minimum qualifications
-            pos_id = get_position_id(Position)
-            screen_applicants_for_position(
-                pos_id,
+            # Manual screening (position -> applicant -> yes/no)
+            manual_screening(
                 Applicant,
                 Application,
                 JobRequirement,
+                Position,
                 Qualification,
                 ApplicantQualification,
-                RequirementQualification,
             )
+            # Save Application changes (IsQualified) to JSON
+            save_application(Application)
 
         elif choice == "0":
-            print("Exiting HR Screening System. Goodbye!")
+            print("Exiting HR System. Goodbye!")
             break
 
         else:
-            print("Invalid choice. Please enter a number between 0 and 10.")
+            print("Invalid choice. Please enter a number between 0 and 9.")
 
 
 if __name__ == "__main__":

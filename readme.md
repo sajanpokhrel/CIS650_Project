@@ -46,12 +46,10 @@ As an HR administrator, I want to automatically screen out the candidates who la
 | **Main success scenario** | 1. HR administrator selects a job position |
 | | 2. The system lists all minimum requirements required for that position |
 | | 3. The system lists all applicants applying for that position |
-| | 4. System filters out applicants who do not qualify |
-| | 5. System shows qualified applicants |
-| | 6. HR administrator forwards the qualified applicants to Seth and hiring managers |
+| | 4. HR administrators chooses who are qualified |
+| | 5. HR administrator forwards the qualified applicants to Seth and hiring managers |
 | **Extensions** | 1. No applicants have applied to that position |
 | | 2. Position has no minimum qualification defined |
-| | 3. Applicant has partial qualifications |
-| | 4. HR administrator wants to view qualifications before screening |
-| | 5. Minimum qualifications need to be updated |
+| | 3. Applicant has partial qualifications | |
+| | 4. Minimum qualifications need to be updated |
 |---|---|

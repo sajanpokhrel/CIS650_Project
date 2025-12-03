@@ -1,62 +1,72 @@
 [
   {
-    "ApplicationID": "APP001",
-    "ApplicationStatus": "Submitted",
-    "ApplicantID": "A001",
-    "PositionID": "P001"
+    "ApplicationID":"APP001",
+    "ApplicationStatus":"Submitted",
+    "ApplicantID":"A001",
+    "PositionID":"P001",
+    "IsQualified":"Yes"
   },
   {
-    "ApplicationID": "APP002",
-    "ApplicationStatus": "Under Review",
-    "ApplicantID": "A002",
-    "PositionID": "P001"
+    "ApplicationID":"APP002",
+    "ApplicationStatus":"Under Review",
+    "ApplicantID":"A002",
+    "PositionID":"P001",
+    "IsQualified":"No"
   },
   {
-    "ApplicationID": "APP003",
-    "ApplicationStatus": "Submitted",
-    "ApplicantID": "A003",
-    "PositionID": "P002"
+    "ApplicationID":"APP003",
+    "ApplicationStatus":"Submitted",
+    "ApplicantID":"A003",
+    "PositionID":"P002",
+    "IsQualified":null
   },
   {
-    "ApplicationID": "APP004",
-    "ApplicationStatus": "Submitted",
-    "ApplicantID": "A004",
-    "PositionID": "P002"
+    "ApplicationID":"APP004",
+    "ApplicationStatus":"Submitted",
+    "ApplicantID":"A004",
+    "PositionID":"P002",
+    "IsQualified":null
   },
   {
-    "ApplicationID": "APP005",
-    "ApplicationStatus": "Under Review",
-    "ApplicantID": "A005",
-    "PositionID": "P002"
+    "ApplicationID":"APP005",
+    "ApplicationStatus":"Under Review",
+    "ApplicantID":"A005",
+    "PositionID":"P002",
+    "IsQualified":null
   },
   {
-    "ApplicationID": "APP006",
-    "ApplicationStatus": "Submitted",
-    "ApplicantID": "A006",
-    "PositionID": "P003"
+    "ApplicationID":"APP006",
+    "ApplicationStatus":"Submitted",
+    "ApplicantID":"A006",
+    "PositionID":"P003",
+    "IsQualified":null
   },
   {
-    "ApplicationID": "APP007",
-    "ApplicationStatus": "Shortlisted",
-    "ApplicantID": "A007",
-    "PositionID": "P003"
+    "ApplicationID":"APP007",
+    "ApplicationStatus":"Shortlisted",
+    "ApplicantID":"A007",
+    "PositionID":"P003",
+    "IsQualified":null
   },
   {
-    "ApplicationID": "APP008",
-    "ApplicationStatus": "Submitted",
-    "ApplicantID": "A008",
-    "PositionID": "P001"
+    "ApplicationID":"APP008",
+    "ApplicationStatus":"Submitted",
+    "ApplicantID":"A008",
+    "PositionID":"P001",
+    "IsQualified":null
   },
   {
-    "ApplicationID": "APP009",
-    "ApplicationStatus": "Submitted",
-    "ApplicantID": "A009",
-    "PositionID": "P003"
+    "ApplicationID":"APP009",
+    "ApplicationStatus":"Submitted",
+    "ApplicantID":"A009",
+    "PositionID":"P003",
+    "IsQualified":null
   },
   {
-    "ApplicationID": "APP010",
-    "ApplicationStatus": "Submitted",
-    "ApplicantID": "A010",
-    "PositionID": "P002"
+    "ApplicationID":"APP010",
+    "ApplicationStatus":"Submitted",
+    "ApplicantID":"A010",
+    "PositionID":"P002",
+    "IsQualified":null
   }
 ]

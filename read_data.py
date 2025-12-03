@@ -47,10 +47,17 @@ def save_application(Application):
     subfolder_path = data_folder
     out_path = os.path.join(subfolder_path, "Application.json")
 
-    df_to_save = Application.reset_index()
+    df_to_save = Application.reset_index().copy()
+
+    df_to_save["IsQualified"] = df_to_save["IsQualified"].map({
+        True: "Yes",
+        False: "No"
+    })
+
     df_to_save.to_json(out_path, orient="records", indent=2)
 
     print(f"\n [INFO] Application data (including IsQualified) saved to {out_path}")
+
 
 
 def show_data():

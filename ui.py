@@ -14,7 +14,7 @@ from business_logic import (
 
 def main():
     print("Welcome to the We Build Stuff HR System")
-    print("User Story: Manual screening with manager Yes/No decision\n")
+    print("User Story:  Screening out candidates using managers Yes/No decision\n")
 
     (
         Applicant,
@@ -28,7 +28,7 @@ def main():
 
     while True:
         print("""
-==================== HRS MENU ====================
+==================== HRIS Screening Menu ====================
 1. View Applicants
 2. View Applications
 3. View Positions

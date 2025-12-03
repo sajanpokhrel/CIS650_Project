@@ -23,7 +23,7 @@ def view_qualifications(Qualification):
 
 def view_applicant_qualifications(ApplicantQualification):
     print("\n=== APPLICANT QUALIFICATION TABLE ===")
-    pprint.pprint(ApplicantQualification)
+    pprint.pprint(ApplicantQualification.reset_index())
     input("\nPress Enter to continue...")
 
 def view_job_requirements(JobRequirement):
@@ -158,7 +158,7 @@ def manual_screening(Applicant,
         return
 
     pending_apps = apps_for_pos[(apps_for_pos["IsQualified"].isna()) |
-                                (apps_for_pos["IsQualified"] != True)]
+                                (apps_for_pos["IsQualified"] != "Yes")]
 
     if pending_apps.empty:
         print("No pending applicants. All applicants for this position are already qualified.")
@@ -176,9 +176,9 @@ def manual_screening(Applicant,
             name = "(Unknown Applicant)"
 
         is_qual = row.get("IsQualified", None)
-        if is_qual is True:
+        if is_qual is "Yes":
             qual_text = "Yes"
-        elif is_qual is False:
+        elif is_qual is "No":
             qual_text = "No"
         else:
             qual_text = "Not decided"
